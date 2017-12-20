@@ -1,0 +1,64 @@
+body{
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Arial, Verdana, Tahoma;
+	margin: 0;
+	padding: 0;
+}
+#contener{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: #754c24;
+}
+
+/***********HEADER*******************************/
+
+#header{
+	background: #754c24;
+	width: 100%;
+	margin: -32px 0;
+	clear: both;
+}
+
+/*****************MENU********************/
+
+#menu{
+	width: 540px;
+	float: left;
+	margin-left: 1000px;
+}
+#menu ul{
+	margin:25px;
+	padding: 0 auto;
+}
+#menu ul li{
+	list-style: none;
+	font-size: 14px;
+	float: left;
+	width: 100px;
+	font-family: Franklin; 
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+/**********************LOGO********************/
+
+#logo h1{
+	width: 260px;
+	font-size: 36px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: Agency FB;
+	margin-left: 120px;
+}
+#logo h1 span{
+	color: #dfa42e;
+	font-family: Freestyle script;
+	font-size: 60px;
+	margin-left: -42px;
+}
