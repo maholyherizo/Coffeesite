@@ -62,3 +62,7 @@ body{
 	font-size: 60px;
 	margin-left: -42px;
 }
+
+#contener img{
+	margin: 50px 350px;
+}
