@@ -62,7 +62,46 @@ body{
 	font-size: 60px;
 	margin-left: -42px;
 }
-
-#contener img{
-	margin: 50px 350px;
+/***************************CONTENER*****************/
+#contener #barre_recherche img.recherche{
+	margin-left: 1083px;
 }
+/*#contener img.couche_contener{
+	/**margin: -5px 350px;**/
+	/*position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}*/
+
+.contenu_couche{
+  position: relative;
+  z-index: 1;
+  /*border: dashed;*/
+  background: url(../images/couche1contener.png);
+  width: 80%;
+  height: 8em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+.menu1{
+  position: absolute;
+  z-index: 3; /* .boite-doree sera au-dessus de .boite-verte et .boite-tirets */
+  background: gold;
+  width: 80%;
+  left: 60px;
+  top: 3em;
+
+}
+.menu2{
+	position: absolute;
+  z-index: 2; /* .boite-verte sera au-dessus de .boite-tirets */
+  background: lightgreen;
+  width: 20%;
+  left: 65%;
+  top: -25px;
+  height: 7em;
+  opacity: 0.9;
+}
+
+
